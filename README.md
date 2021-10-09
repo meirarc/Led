@@ -38,7 +38,7 @@ Public functions:
 
 ## Example
 
-```
+```c++
 #include <Led.h>
 
 Led led_built_in(LED_BUILTIN);
