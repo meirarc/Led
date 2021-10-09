@@ -14,7 +14,7 @@ Public functions:
 
 - `Led(int pin)`
     
-    Contructor, inform the Pin number to initiate the output
+    Contructor, inform the `pin` number to initiate the output
 
 - `void begin()`
 
@@ -38,4 +38,19 @@ Public functions:
 
 ## Example
 
+```
+#include <Led.h>
 
+Led led_built_in(LED_BUILTIN);
+
+void setup() {
+  led_built_in.begin();
+}
+
+void loop() {
+  //led_built_in.on();
+  //led_built_in.off();
+  led_built_in.blink(200);
+  
+}
+```
