@@ -12,14 +12,30 @@ ESP32 Led control library with some usefull and easy shortcuts to make the main 
 
 Public functions:
 
-- Led(pin)
+- `Led(int pin)`
     
     Contructor, inform the Pin number to initiate the output
 
-- begin
-- void on
-- void off
-- bool status
-- void blink(blinkPeriod)
+- `void begin()`
+
+    Initiate the output pin
+
+- `void on()`
+
+    Set the Pin as `HIGH`
+
+- `void off()`
+
+    Set the Pin as `LOW`
+
+- `bool status()`
+
+    Retun the status of the Pin
+
+- `void blink(int blinkPeriod)`
+
+    Blink the Led/Pin in `blinkPeriod` miliseconds
 
 ## Example
+
+
