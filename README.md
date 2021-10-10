@@ -16,10 +16,6 @@ Public functions:
     
     Contructor, inform the `pin` number to initiate the output
 
-- `void begin()`
-
-    Initiate the output pin
-
 - `void on()`
 
     Set the Pin as `HIGH`
