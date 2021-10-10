@@ -40,7 +40,7 @@ Public functions:
 Led led_built_in(LED_BUILTIN);
 
 void setup() {
-  led_built_in.begin();
+  
 }
 
 void loop() {
