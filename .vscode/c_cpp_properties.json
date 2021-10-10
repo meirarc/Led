@@ -3,7 +3,8 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/Users/rafaelcabrera/.platformio/packages/framework-arduinoespressif32/cores/esp32"
             ],
             "defines": [],
             "macFrameworkPath": [
