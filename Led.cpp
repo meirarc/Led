@@ -3,10 +3,6 @@
 Led::Led(int pin)
 {
   _pin = pin;
-}
-
-void Led::begin()
-{
   pinMode(_pin, OUTPUT);
 }
 
