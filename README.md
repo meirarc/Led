@@ -1,4 +1,4 @@
-# Led Control Library
+# ⚙ Led Control Library
 
 ESP32 Led control library with some useful and easy shortcuts to make the main code clean.
 
@@ -8,7 +8,7 @@ ESP32 Led control library with some useful and easy shortcuts to make the main c
 2. Add the folder under `Arduino/libraries`
 3. Restart Arduino IDE
 
-## Library details
+## 🔧 Library details
 
 Public functions:
 
@@ -32,7 +32,7 @@ Public functions:
 
     Blink the Led/Pin in `blinkPeriod` miliseconds
 
-## Example
+## 🖌 Example
 
 ```c++
 #include <Led.h>
@@ -49,3 +49,11 @@ void loop() {
   led_built_in.blink(200); 
 }
 ```
+
+## 🙋‍♂️ Support & Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request if you have a way to improve this project.
+
+Make sure your request is meaningful and you have tested the app locally before submitting a pull request.
+
+💙 If you like this project, give it a ⭐ and share it with friends!
