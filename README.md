@@ -1,6 +1,6 @@
 # Led Control Library
 
-ESP32 Led control library with some usefull and easy shortcuts to make the main code clean.
+ESP32 Led control library with some useful and easy shortcuts to make the main code clean.
 
 ## ⚡ Install
 
